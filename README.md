@@ -92,12 +92,16 @@ sklearn.metrics.roc_auc_score #评价指标
 评估指标：Logloss注重评估的准确性，AUC注重正样本排到前面的能力  
 
 ## Proposal: ECG Classification
-### 来源
-[ECG](<https://blog.csdn.net/qq_15746879/article/details/80329711?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&utm_relevant_index=17>)
+### 来源  
+[ECG](<https://blog.csdn.net/qq_15746879/article/details/80329711?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&utm_relevant_index=17>)  
 特征波:P波;QRS波;T波   
 预处理：使用Pan-Tompkins算法突出QRS波；滤波去除基线漂移和工频干扰；低通差分滤波器；平方操作使QRS波非线性放大  
 调整信号阈值与噪声阈值：T波与QRS波辨别：心拍计数/QRS计数3个以上；R-R间期:心拍计数/QRS计数9个以上  
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/ECGimg/ECG.png>)
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/ECGimg/ECG1.png>)
 
+## 从零搭建网络
+### 
 
 
 
