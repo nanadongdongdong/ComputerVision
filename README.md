@@ -91,6 +91,8 @@ sklearn.metrics.roc_auc_score #评价指标
 ### baseline
 评估指标：Logloss注重评估的准确性，AUC注重正样本排到前面的能力  
 
+#### Competition Proposal 代码有一部分在当时的Competition界面，有一部分作为笔记暂未上传。
+
 ## Proposal: ECG Classification
 ### 来源  
 [ECG](<https://blog.csdn.net/qq_15746879/article/details/80329711?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11.pc_relevant_default&utm_relevant_index=17>)  
@@ -120,7 +122,10 @@ nn.LSTM
 ## 视觉
 对时下的Algorithms and Applications做了500页笔记：    
 从opencv实现的各类基本视觉任务到检测分割，压缩复原融合，去模糊抠图，深度等等以及现在的自监督预训练到轻量化的转变，另外，从数据与状态角度，Algorithms是在反映数据与全局状态之间的关系，以及推理全局状态。  
+以下是笔记页数统计：
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/Countimg/count.png>) 
 
+opencv练习：
 
 
 
