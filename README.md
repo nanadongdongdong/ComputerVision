@@ -113,6 +113,16 @@ nn.RNN
 nn.LSTM
 以及Bert模型等，结合花书做了400页笔记
 下面是模型的调试效果：
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/DNNimg/DNNimg.png>)
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/DNNimg/DNN1.jpg>)
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/DNNimg/DNN2.png>)
+
+## 视觉
+对时下的Algorithms and Applications做了500页笔记：    
+从opencv实现的各类基本视觉任务到检测分割，压缩复原融合，去模糊抠图，深度等等以及现在的自监督预训练到轻量化的转变，另外，从数据与状态角度，Algorithms是在反映数据与全局状态之间的关系，以及推理全局状态。  
+
+
+
 
 
 
