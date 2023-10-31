@@ -97,11 +97,26 @@ sklearn.metrics.roc_auc_score #评价指标
 特征波:P波;QRS波;T波   
 预处理：使用Pan-Tompkins算法突出QRS波；滤波去除基线漂移和工频干扰；低通差分滤波器；平方操作使QRS波非线性放大  
 调整信号阈值与噪声阈值：T波与QRS波辨别：心拍计数/QRS计数3个以上；R-R间期:心拍计数/QRS计数9个以上  
-![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/ECGimg/ECG.png>)
+![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/ECGimg/ECG.png>)  
 ![](<https://github.com/nanadongdongdong/ComputerVision/blob/main/ECGimg/ECG1.png>)
 
 ## 从零搭建网络
-### 
+### 部分代码放于jupyter文件夹内
+MLP 反向传播 优化算法  
+
+## 使用pytorch搭建网络
+data.DataLoader  
+nn.Linear  
+nn.Sequential  
+nn.Flatten  
+nn.RNN
+nn.LSTM
+以及Bert模型等，结合花书做了400页笔记
+下面是模型的调试效果：
+
+
+
+
 
 
 
